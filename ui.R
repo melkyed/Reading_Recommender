@@ -17,7 +17,7 @@ shinyUI(
 
           dashboardBody(includeCSS("css/b.css"),
               fluidRow(
-                  box(width = 12, title = "Step 1: Rate as many books as possible", status = "info", solidHeader = TRUE, collapsible = TRUE,
+                  box(width = 12, title = "To see your recommendation: Rate as many books as possible", status = "info", solidHeader = TRUE, collapsible = TRUE,
                       div(class = "rateitems",
                           uiOutput('ratings')
                       )
@@ -30,7 +30,7 @@ shinyUI(
                     title = "Step 2: Discover books you might like",
                     br(),
                     withBusyIndicatorUI(
-                      actionButton("btn", "Click here to get your recommendations", class = "btn-warning")
+                      actionButton("btn", "Click the button to get your recommendations", class = "btn-warning")
                     ),
                     br(),
                     tableOutput("results")
