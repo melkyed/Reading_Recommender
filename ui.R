@@ -6,16 +6,16 @@ library(data.table)
 library(ShinyRatingInput)
 library(shinyjs)
 
-source('functions/UI_assist.R')
+source('functions/UI_intro.R')
 
 shinyUI(
     dashboardPage(
           skin = "blue",
-          dashboardHeader(title = "Book Recommender"),
+          dashboardHeader(title = "Reading Recommender"),
           
           dashboardSidebar(disable = TRUE),
 
-          dashboardBody(includeCSS("css/books.css"),
+          dashboardBody(includeCSS("css/b.css"),
               fluidRow(
                   box(width = 12, title = "Step 1: Rate as many books as possible", status = "info", solidHeader = TRUE, collapsible = TRUE,
                       div(class = "rateitems",
