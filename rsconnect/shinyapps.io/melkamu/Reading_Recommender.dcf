@@ -1,0 +1,12 @@
+name: Reading_Recommender
+title: Reading_Recommender
+username:
+account: melkamu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2868292
+bundleId: 3661386
+url: https://melkamu.shinyapps.io/Reading_Recommender/
+when: 1600861903.72028
+asMultiple: FALSE
+asStatic: FALSE
